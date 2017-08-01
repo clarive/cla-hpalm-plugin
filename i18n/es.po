@@ -1,0 +1,161 @@
+#: init/hpalm-inbound.js
+msgid "HP ALM Octane Inbound"
+msgstr "Entrada de HP ALM Octane"
+
+#: init/hpalm-inbound.js init/hpalm-outbound.js
+msgid "HP ALM Octane Server undefined. Please choose one. "
+msgstr "Servidor de HP ALM Octane no definido. Por favor, escoja uno."
+
+#: init/hpalm-inbound.js init/hpalm-outbound.js
+msgid "Missing login URL parameter."
+msgstr "URL de acceso no encontrada."
+
+#: init/hpalm-inbound.js
+msgid "Service topic create"
+msgstr "Servicio de creación de tópicos"
+
+#: init/hpalm-inbound.js
+msgid "Topic created with mid: "
+msgstr "Tópico creado con el mid: "
+
+#: init/hpalm-inbound.js
+msgid "Topic doesn't exist"
+msgstr "Tópico no existente"
+
+#: init/hpalm-inbound.js
+msgid "Topic already updated"
+msgstr "Tópico ya actualizado"
+
+#: init/hpalm-inbound.js
+msgid "Change topic status"
+msgstr "Cambio de estado de tópico"
+
+#: init/hpalm-inbound.js
+msgid "Update topic"
+msgstr "Actualizar tópico"
+
+#: init/hpalm-inbound.js
+msgid "HP ALM topic updated"
+msgstr "Tópico de HP ALM actualizado"
+
+#: init/hpalm-inbound.js
+msgid "HP ALM topic not found"
+msgstr "Tópico de HP ALM no encontrado"
+
+#: init/hpalm-inbound.js
+msgid "Delete topic"
+msgstr "Borrar tópico"
+
+#: init/hpalm-inbound.js
+msgid "Topic deleted"
+msgstr "Tópico borrado"
+
+#: init/hpalm-inbound.js
+msgid "Unknown mode"
+msgstr "Modo desconocido"
+
+#: init/hpalm-outbound.js
+msgid "HP ALM Octane Outbound"
+msgstr "Salida de HP ALM Octane"
+
+#: init/hpalm-outbound.js
+msgid "Action option undefined."
+msgstr "Acción no definida"
+
+#: init/hpalm-outbound.js
+msgid "Not found workspace name, please check it before continue"
+msgstr "Espacio de trabajo no encontrado, por favor, reviselo antes de continuar"
+
+#: init/hpalm-outbound.js
+msgid "Topic with mid "
+msgstr "Tópico con el mid "
+
+#: init/hpalm-outbound.js
+msgid " not found"
+msgstr " no encontrado"
+
+#: init/hpalm-outbound.js
+msgid " has no relation with HP ALM"
+msgstr " no tiene relación con HP ALM"
+
+#: init/hpalm-outbound.js
+msgid "HP ALM topic doesn't exist"
+msgstr "No existe el tópico en HP ALM"
+
+#: init/hpalm-outbound.js
+msgid "not found"
+msgstr "no encontrado"
+
+#: init/hpalm-outbound.js
+msgid "Topic doesn't exist in HP ALM"
+msgstr "El tópico no existe en HP ALM"
+
+#: init/hpalm-outbound.js
+msgid "Deleted Topic with mid "
+msgstr "Borrado el tópico con el mid "
+
+#: public/form/hpalm-category.js
+msgid "Clarive Category Name"
+msgstr "Nombre de la categoría en Clarive"
+
+#: public/form/hpalm-category.js
+msgid "HP ALM Octane Category Name"
+msgstr "Nombre de la categoría en HP ALM Octane"
+
+#: public/form/hpalm-category.js
+msgid "Clarive - HP ALM Octane Field Correspondence"
+msgstr "Correspondencia de campos Clarive - HP ALM Octane"
+
+#: public/form/hpalm-category.js
+msgid "Clarive - HP ALM Octane Field Lists Correspondence"
+msgstr "Lista de correspondencias de los campos Clarive - HP ALM Octane"
+
+#: public/form/hpalm-server.js
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: public/form/hpalm-server.js
+msgid "Password"
+msgstr "Contraseña"
+
+#: public/form/hpalm-server.js
+msgid "Shared Space ID"
+msgstr "ID del espacio compartido"
+
+#: public/form/hpalm-server.js
+msgid "Workspace"
+msgstr "Espacio de trabajo"
+
+#: public/form/hpalm-server.js
+msgid "Login URL"
+msgstr "URL de acceso"
+
+#: public/form/hpalm-services-inbound.js
+#: public/form/hpalm-services-outbound.js
+msgid "HP ALM Server"
+msgstr "Servidor de HP ALM"
+
+#: public/form/hpalm-services-inbound.js
+#: public/form/hpalm-services-outbound.js
+msgid "HP ALM Category"
+msgstr "Categoría de HP ALM"
+
+#: public/form/hpalm-services-outbound.js
+msgid "Action"
+msgstr "Acción"
+
+#: public/form/hpalm-services-outbound.js
+msgid "Create"
+msgstr "Crear"
+
+#: public/form/hpalm-services-outbound.js
+msgid "Update"
+msgstr "Actualizar"
+
+#: public/form/hpalm-services-outbound.js
+msgid "Change Status"
+msgstr "Cambio de estado"
+
+#: public/form/hpalm-services-outbound.js
+msgid "Delete"
+msgstr "Borrar"
