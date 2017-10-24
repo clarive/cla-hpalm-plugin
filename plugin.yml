@@ -1,4 +1,4 @@
-name: Clarive HP ALM Plugin
+name: HP ALM Plugin
 description: The HP ALM plugin will allow you to keep topics from HP ALM Octane synchronized with Clarive and vice versa.
 version: 1.0
 icon: https://cdn.rawgit.com/clarive/cla-hpalm-plugin/master/public/icon/hpalm.svg?sanitize=true
