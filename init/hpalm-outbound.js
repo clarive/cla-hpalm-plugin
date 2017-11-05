@@ -4,6 +4,23 @@ reg.register('service.hpalm.outbound', {
     name: _('HP ALM Octane Outbound'),
     icon: '/plugin/cla-hpalm-plugin/icon/hpalm.svg',
     form: '/plugin/cla-hpalm-plugin/form/hpalm-services-outbound.js',
+    rulebook: {
+        moniker: 'hpalm_outbound',
+        description: _('HPALM outbound service'),
+        required: [ 'server', 'synchronize_when', 'hpalm_category'],
+        allow: ['server', 'synchronize_when', 'hpalm_category'],
+        mapper: {
+            'synchronize_when':'synchronizeWhen',
+            'hpalm_category':'HPALMCategory'
+        },
+        examples: [{
+            hpalm_outbound: {
+                server: 'hpalm_resource',
+                synchronize_when: 'create',
+                hpalm_category: 'category_resource'
+            }
+        }]
+    },
     handler: function(ctx, config) {
         var ci = require("cla/ci");
         var log = require("cla/log");

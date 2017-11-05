@@ -4,6 +4,21 @@ reg.register('service.hpalm.inbound', {
     name: _('HP ALM Octane Inbound'),
     icon: '/plugin/cla-hpalm-plugin/icon/hpalm.svg',
     form: '/plugin/cla-hpalm-plugin/form/hpalm-services-inbound.js',
+    rulebook: {
+        moniker: 'hpalm_inbound',
+        description: _('HPALM inbound service'),
+        required: [ 'server', 'hpalm_category'],
+        allow: ['server', 'hpalm_category'],
+        mapper: {
+            'hpalm_category':'HPALMCategory'
+        },
+        examples: [{
+            hpalm_inbound: {
+                server: 'hpalm_resource',
+                hpalm_category: 'category_resource'
+            }
+        }]
+    },
     handler: function(ctx, config) {
         var ci = require("cla/ci");
         var log = require("cla/log");

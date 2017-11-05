@@ -5,7 +5,7 @@ ci.createRole("HPALM");
 ci.createClass("HPALMServer", {
     form: '/plugin/cla-hpalm-plugin/form/hpalm-server.js',
     icon: '/plugin/cla-hpalm-plugin/icon/hpalm.svg',
-    roles: ["HPALM"],
+    roles: ["HPALM", "ClariveSE"],
     has: {
         userName: {
             is: "rw",
@@ -39,7 +39,7 @@ ci.createClass("HPALMServer", {
 ci.createClass("HPALMCategory", {
     form: '/plugin/cla-hpalm-plugin/form/hpalm-category.js',
     icon: '/plugin/cla-hpalm-plugin/icon/hpalm.svg',
-    roles: ["HPALM"],
+    roles: ["HPALM", "ClariveSE"],
     has: {
         clariveCategory: {
             is: "rw",
